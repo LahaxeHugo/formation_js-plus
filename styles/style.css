@@ -3,7 +3,36 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+button {
+  cursor: pointer;
+}
 
 .tweet {
   margin: 1rem;
+}
+
+#root {
+  margin-bottom: 10px;
+}
+.user {
+  font-weight: bold;
+}
+
+#tweet-list > li {
+  margin-top: 20px;
+}
+#tweet-list > li > header > * {
+  margin-right: 20px;
+}
+
+#tracking-coord {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: rgb(220,220,220);
+}
+
+.favoris {
+  background-color: yellow;
 }
